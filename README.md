@@ -21,8 +21,10 @@ size: InputSignal<UiButtonSize> = 'medium';
 > Button Size
 
 @Output()\
-click: SignalOutput<MouseEvent>;\
-`Emits when the user clicks on the button.`
+click: SignalOutput<MouseEvent>;
+```
+Emits when the user clicks on the button.
+```
 
 # Types
 
