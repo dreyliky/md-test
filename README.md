@@ -17,7 +17,7 @@ type: InputSignal<UiButtonType> = 'primary';
 > Button Type
 
 @Input()\
-size: InputSignal<#UiButtonSize> = 'medium';
+size: InputSignal<UiButtonSize> = 'medium';
 > Button Size
 
 @Output()\
