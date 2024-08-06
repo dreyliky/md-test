@@ -10,18 +10,19 @@ Buttons are native `<button>` or `<a>` elements enhanced with PISA Olympia Desig
 
 **Selector**: `button[ui-button]`
 
-### Inputs
+---
 
-| Name     | Default value | Description |
-| -------- | --------      | -------     |
-| type: InputSignal<[UiButtonType](#UiButtonType)>     | primary       | Button Type |
-| size: InputSignal<[UiButtonType](#UiButtonSize)>     | medium        | Button Size |
+@Input()\
+type: InputSignal<UiButtonType> = 'primary';
+> Button Type
 
-### Outputs
+@Input()\
+size: InputSignal<#UiButtonSize> = 'medium';
+> Button Size
 
-| Name     | Data Type     | Description |
-| -------- | --------      | -------     |
-| click    | MouseEvent    | Emits when user clicks on the button. |
+@Output()\
+click: SignalOutput<MouseEvent>;
+> Emits when the user clicks on the button.
 
 # Types
 
