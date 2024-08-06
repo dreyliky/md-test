@@ -2,6 +2,8 @@
   - 📂 [UiButtonComponent](#UiButtonComponent)
   - 📂 [UiIconButtonComponent](#UiIconButtonComponent)
 - 📦 [Types](#types)
+  - 📂 [UiButtonType](#UiButtonType)
+  - 📂 [UiButtonSize](#UiButtonSize)
 
 # Components
 
