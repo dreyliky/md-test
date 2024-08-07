@@ -19,13 +19,19 @@ Buttons are native `<button>` or `<a>` elements enhanced with PISA Olympia Desig
 type: InputSignal<UiButtonType> = 'primary';\
 *Button Type*
 
+---
+
 @Input()\
 size: InputSignal<UiButtonSize> = 'medium';\
 *Button Size*
 
+---
+
 @Output()\
 click: SignalOutput<MouseEvent>;\
 *Emits when the user clicks on the button.*
+
+---
 
 ## UiIconButtonComponent
 
@@ -39,13 +45,19 @@ Buttons are native `<button>` or `<a>` elements enhanced with PISA Olympia Desig
 type: InputSignal<UiButtonType> = 'primary';\
 *Button Type*
 
+---
+
 @Input()\
 size: InputSignal<UiButtonSize> = 'medium';\
 *Button Size*
 
+---
+
 @Output()\
 click: SignalOutput<MouseEvent>;\
 *Emits when the user clicks on the button.*
+
+---
 
 # Types
 
